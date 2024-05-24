@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+      }
+main{
+    min-height: 77vh;
+    background-color: white;
+    margin: 0px -8px;
+}
+.form{
+    padding-top: 18px;
+}
+.container{
+    max-width: 80vw;
+    margin: auto;
+    padding: 15px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 6px;
+    padding: 4px 15px;
+    cursor: pointer;
+}
+@media only screen and (max-width:600px){
+    .container{
+        font-size: 12px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+#resultCont div::first-letter{
+    text-transform: uppercase;
+}
+input [type='text']{
+    min-width: 23vw;
+    padding: 3px 12px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 20px;
+}
+#username{
+    width: 230px;
+}
+#resultCont{
+    padding-top: 6px;
+}
